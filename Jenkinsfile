@@ -4,9 +4,9 @@ pipeline {
     environment {
         REPO = 'jenkins-ci-cd-automation'
         AWS_REGION = 'ap-south-1'
-        ECR_URL = "311122233344.dkr.ecr.ap-south-1.amazonaws.com/gaurav-ci-cd"
-        EC2_USER = "ec2-user"
-        EC2_IP = "YOUR_EC2_PUBLIC_IP"
+        ECR_URL = "354918399295.dkr.ecr.ap-south-1.amazonaws.com/gaurav-ci-cd"
+        EC2_USER = "root"
+        EC2_IP = "3.111.35.94"
     }
 
     stages {
