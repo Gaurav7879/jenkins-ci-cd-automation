@@ -34,7 +34,7 @@ pipeline {
         stage('Docker Build') {
             steps {
                 sh '''
-                    echo "Building Docker Image..."
+                    echo "Building Docker Images..."
                     docker build -t gaurav-ci-cd-app .
                 '''
             }
